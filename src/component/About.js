@@ -3,7 +3,7 @@ import { useSelector, useDispatch } from "react-redux";
 import { ADD_ITEM, REMOVE_ITEM } from "../utils/action/CartAction";
 
 const About = () => {
-    const count = useSelector((state) => state.count);
+    const {count} = useSelector((state) => state.cartReducer);
     const dispatch = useDispatch();
   return (
     <div>
