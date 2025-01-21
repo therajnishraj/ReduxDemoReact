@@ -1,6 +1,6 @@
 import React from "react";
 import { useSelector, useDispatch } from "react-redux";
-import { ADD_ITEM, REMOVE_ITEM } from "../utils/action/CartAction";
+import { ADD_ITEM, REMOVE_ITEM } from "../utils/action/ActionType";
 
 function Home() {
   const { count,loading } = useSelector((state) => state.cartReducer);

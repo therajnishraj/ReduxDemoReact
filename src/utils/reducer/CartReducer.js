@@ -1,4 +1,4 @@
-import { ADD_ITEM, REMOVE_ITEM } from "../action/CartAction";
+import { ADD_ITEM, REMOVE_ITEM } from "../action/ActionType";
 
 const initialState = { count: 0, loading:"OK" };
 
